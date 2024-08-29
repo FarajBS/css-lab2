@@ -1,0 +1,106 @@
+/* All Of Website */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*- All Of Website -*/
+
+/* Header Section */
+header {
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    background-image: url("images/soupHedar.jpg");
+    background-size: cover;
+    background-position: 10000px;
+    position: relative;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 4em;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header .suopimg {
+    width: 300px;
+    height: 300px;
+    background-image: url("images/suopimg.png");
+    background-size: cover;
+    position: absolute;
+    top: 340px;
+    left: 355px;
+
+}
+/*- Header Section -*/
+
+/*  Contianer */
+.contaier {
+    margin: 15% 20% 0;
+}
+
+.SoupInfo {
+    text-align: center;
+}
+
+.SoupInfo h2 {
+    font-size: 1.8em;
+    font-weight: 500;
+    text-align: left;
+}
+
+.SoupInfo img {
+    width: 280px;
+    margin: 50px 0 30px;
+}
+
+/*== Ingredients ==*/
+.Ingredients {
+    margin-top: 80px;
+}
+
+.Ingredients span {
+    font-size: 2em;
+    background-color: rgb(255, 206, 115);
+    border-radius: 60%;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+.Ingredients ul {
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+.Ingredients ul li {
+    font-size: 2em;
+}
+
+.Ingredients img {
+    width: 280px;
+    margin: 50px 0 30px;
+}
+
+/*== Directions ==*/
+.Directions {
+    margin-top: 80px;
+}
+
+.Directions h3 {
+    font-size: 2em;
+    background-color: rgb(255, 206, 115);
+    border-radius: 60%;
+    padding: 10px;
+    margin-bottom: 40px;
+    display: inline-block;
+}
+
+.Directions p {
+    font-size: 1em;
+    font-weight: bold;
+}
+/*-  Contianer -*/
